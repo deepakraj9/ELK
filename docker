@@ -1,0 +1,17 @@
+docker --version - Give version of docker installed
+docker images - list of local images on your system
+docker ps -a - lists out all the containers 
+docker rmi < Image ID> - deleted an image
+docker rm <Container ID> - delete containers
+docker start <Container ID> - starts a container
+docker stop <Container ID> - stops a container
+docker run -it <image ID> <command> 
+docker commit <container ID> <name of the image> - creating a snaphot/image of the container
+docker exec -it < container ID> < command > - launching an already exhisting container
+docker rename <old name> <new name> - renaming an exhisting container
+docker run -it --name < container name > <container ID> <command>  - naming a container while creating it 
+docker run -it --name <container name> <image name> <command> - directly pulls the image from the repo if not present locally 
+docker search <image name> - to pull images from docker hub
+docker search -s <no of stars> - search for images with respect to number of stars
+docker search --no-trunc < image name> - seaches for images with full description
+docker exec -it -u <username> <containerID/name> <command> - login to docker container with an exhisting user
