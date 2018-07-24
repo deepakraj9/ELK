@@ -15,3 +15,7 @@ docker search <image name> - to pull images from docker hub
 docker search -s <no of stars> - search for images with respect to number of stars
 docker search --no-trunc < image name> - seaches for images with full description
 docker exec -it -u <username> <containerID/name> <command> - login to docker container with an exhisting user
+
+
+
+This was changed
